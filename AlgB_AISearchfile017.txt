@@ -1,0 +1,5 @@
+USER = ttrq46 (Yosef Berezovskiy),
+ALGORITHM CODE = BG, NAME OF CITY-FILE = AISearchfile017.txt,
+SIZE = 17, TOUR LENGTH = 1524,
+9, 15, 8, 13, 10, 11, 14, 7, 5, 1, 2, 4, 3, 12, 6, 0, 16
+NOTE = Enhanced version of Basic Greedy Algorithm

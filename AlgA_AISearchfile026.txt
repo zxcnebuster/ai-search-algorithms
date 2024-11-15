@@ -1,0 +1,5 @@
+USER = ttrq46 (Yosef Berezovskiy),
+ALGORITHM CODE = AC, NAME OF CITY-FILE = AISearchfile026.txt,
+SIZE = 26, TOUR LENGTH = 1473,
+2, 5, 8, 19, 12, 4, 25, 21, 10, 13, 22, 14, 23, 24, 9, 6, 11, 20, 0, 18, 15, 7, 17, 3, 1, 16
+NOTE = Basic version of Ranked Ant Colony Optimization incorporating an additional hyperparameter to set the quantity of pheromone left by an ant on the city-to-city edge after it visits the city. This allows additional control over exploration and exploitation + as determined experimentally, increasing likelihood of obtaining optimal/close to optimal solutions. This implementation also incorporates basic 2-opt local search techniques to refine discovered tours and allows convergence in less iterations. This iteration's result was achieved using the following hyperparameters { "ANT_COUNT": 10, "ITERATIONS_COUNT": 100, "ALPHA": 1, "BETA": 5, "RHO": 0.1, "W": 6, "Q": 5, "TWO_OPT_PERIOD": 1 }
